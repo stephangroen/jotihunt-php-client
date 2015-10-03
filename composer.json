@@ -1,0 +1,27 @@
+{
+  "name": "stephangroen/jotihunt-php-client",
+  "type": "library",
+  "description": "A PHP Client for the Jotihunt API",
+  "keywords": [
+    "api",
+    "php",
+    "jotihunt"
+  ],
+  "homepage": "http://github.com/stephangroen/jotihunt-php-client",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stephan Groen",
+      "email": "mail@stephangroen.nl"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "StephanGroen\\": "src/StephanGroen"
+    }
+  }
+}
