@@ -23,7 +23,6 @@ foreach ($news as $item) {
 
 // Find single news item
 $itemId = $news[0]->ID;
-var_dump($itemId);
 $newsItem = $jotihunt->news()->find($itemId);
 
 var_dump($newsItem->inhoud);
