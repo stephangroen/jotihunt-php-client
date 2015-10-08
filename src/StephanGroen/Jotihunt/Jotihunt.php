@@ -26,8 +26,7 @@ class Jotihunt {
 
     public function hint()
     {
-        // TODO: API unknown
-        //return new Hint($this->connection);
+        return new Hint($this->connection);
     }
 
     public function news()
